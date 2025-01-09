@@ -3,16 +3,16 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
-	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	API_ID = int(os.environ.get("14810154", "0"))
+	API_HASH = os.environ.get("8df64055e6f5cc4551bfa20027799c92")
+	BOT_TOKEN = os.environ.get("7737002477:AAFE3dG3F10zlIpM5Fdp_BOr2g6R6hNki1g")
+	BOT_USERNAME = os.environ.get("et_byme_file_store_bot")
+	DB_CHANNEL = int(os.environ.get("Entertainment_time_ByMe", "-100"))
+	SHORTLINK_URL = os.environ.get('shrinkearn.com')
+	SHORTLINK_API = os.environ.get('b3e559c4e738de42b0a3e038ffa25731e3b33ad1')
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1985104467"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "1001717129525")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -25,7 +25,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
 │
-├🔸 **My Name:** [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🔸 **My Name:** [FileStore Bot](https://t.me/{et_byme_file_store_bot})
 │
 ├🔸 **Language:** [Python 3](https://www.python.org)
 │
@@ -42,11 +42,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [@PredatorHackerzZ](https://github.com/Alineboy)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or ```teleroidgroup@axl```
+[Donate Me](https://t.me/Entertainment_time_ByMe) or ```teleroidgroup@axl```
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
